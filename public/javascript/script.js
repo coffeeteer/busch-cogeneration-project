@@ -3,7 +3,7 @@ $(document).ready(function() {
 
 	lightbox.option({
       resizeDuration: 200,
-      wrapAround: false,
+      wrapAround: true,
       fitImagesInViewport: true,
       maxWidth: 100%,
     })

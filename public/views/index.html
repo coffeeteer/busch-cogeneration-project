@@ -4,25 +4,26 @@
 	<meta name="robots"  content="noindex, nofollow">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css" />
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	 <link href="/assets/css/lightbox.css" rel="stylesheet"> <!-- Lightbox CSS-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.9.0/css/lightbox.css" /> <!-- Lightbox CSS-->
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<script src="/assets/javascript/lightbox-plus-jquery.js"></script> <!-- LightBox JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.9.0/js/lightbox.js"></script> <!-- LightBox JS -->
 	<script type="text/javascript" src="javascript/script.js"></script>
 	<title>The Busch Cogeneration Project</title>
 </head>
 <body>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-8 text-right right">
-				<img class="cogen-stacks" src="images/cogen-stacks.jpg">
-				<h1>The Busch Cogeneration Project</h1>
-			</div>
-			<div class="col-md-4">
-				<h2>Ruters University</h2>
-				<h2>The State University</h2>
+			<div class="col-md-12">
+				<!-- <img class="cogen-stacks" src="images/cogen-stacks.jpg"> -->
+				<div class="parallax">
+					<div class="center col-md-6">
+						<h1 class="text-center logo">The Busch Cogeneration Project</h1>
+						<img src="images/rutgers_university_logo.png" class="logo">						
+					</div> 
+				</div> <!-- parallax End-->
 			</div>
 		</div> <!-- End Row -->
 		<div class="row">
@@ -33,7 +34,7 @@
 		</div> <!-- End Row-->
 		<div class="row">
 			<div class="col-md-6">
-				<img src="images/boiler-stack.jpg" class="cogen-image">
+				<a href="images/boiler-stack.jpg" data-lightbox="The Boiler Stack" data-title="The Boiler Stack"><img src="images/boiler-stack.jpg" class="cogen-image"></a>
 			</div>	
 			<div class="col-md-6">
 				<h2>The Virtue of Cogeneration</h2>
@@ -68,7 +69,7 @@
 		</div>	<!-- Row End-->	
 		<div class="row">
 			<div class="col-md-6 pull-left">	
-				<img src="images/hr-pumps.jpg" lass="cogen-image">
+				<a href="images/hr-pumps.jpg" data-lightbox="The Heat Recovery Circulaion Pumps" data-title="The Heat Recovery Circulaion Pumps"><img src="images/hr-pumps.jpg" lass="cogen-image"></a>
 			</div>
 			<div class="col-md-6">
 				<p>The 13.5 million watts of electric power generated meets over 90% of the campus electrical need and provides a considerable monetary benefit to Rutgers by greatly reducing the amount of power which would otherwise have to be purchased. The Busch Cogeneration Facility is connected to the Piscataway/ New Brunswick power grid, which is served by the local utility PSE&G.</p>
@@ -84,11 +85,11 @@
 
 				<p>The new cogeneration plant water heaters will each recover up to 25 million BTUs per hour from the turbine Exhaust, with an additional 25 million BTUs per hour available from the duct burners. This translates to a total heat output from the three turbines trains of 150 million BTUs per hour, which will maintain a 250,000 gallon water loop system at 370 degrees Fahrenheit. The resulting facility is an integrated plant with a heating capacity of 400 million BTUs per hour, with emergency plant power capability, in the unlikely event a facility wide power outage occurs.</p>
 
-				<img src="images/cogen-facility-overview.png">
+				<a href="images/cogen-facility-overview.png" data-lightbox="Plant Overview" data-title="Plant Overview"><img src="images/cogen-facility-overview.png"></a>
 
 				<p>As mentioned earlier, the closed-loop High Temperature Hot Water system is maintained at a nominal temperature of 370 degrees Fahrenheit. In order to prevent boiling in the system, it is necessary to maintain the entire HTWH system above saturation pressure. Two pressurizers or expansion drums serve the purpose by maintaining the entire HTWH system at 150 psig. These drums also provide a surge volume, to compensate for expansion and contraction of the water in the system. A series of pumps circulate water through the High Temperature Water Heaters, and 5 zone pumps then distribute the hot water throughout the campus, where it will be used for heating, local steam generation, or absorption cooling, before being it’s returned to the plant to be reheated.</p>
 
-				<img src="images/distrib-pumps.jpg">
+				<a href="images/distrib-pumps.jpg" data-lightbox="The Distribution Pumps" data-title="The Distribution Pumps"><img src="images/distrib-pumps.jpg"></a>
 
 				<p>Two zeolite water softeners provide “soft water” (water which is free of calcium and magnesium, and has a greatly reduced level of silica) to prevent system scaling which impedes system heat transfer and fluid flow.  These softeners utilize city water pressure to force the soft water into a feed tank where it is preheated, de-aerated and stored to be used as HTWH system makeup should expansion drum levels fall.</p>
 
@@ -100,7 +101,7 @@
 			<div class="col-md-12">
 				<h2>Solar Dual Fuel Turbine</h2>
 
-				<img src="images/solar-dual-fuel-turbine-system.png">
+				<a href="images/solar-dual-fuel-turbine-system.png" data-lightbox="Solar Turbine" data-title="Solar Turbine Design"><img src="images/solar-dual-fuel-turbine-system.png"></a>
 
 				<p>The Busch Cogeneration Project utilizes three Solar dual fuel turbines to convert chemical energy from natural gas of low sulfur diesel fuel into mechanical energy. In your car, this conversion from chemical to mechanical energy is typically performed by a four-stroke engine. That is, each of the four combustion processes; compression, combustion, expansion, and exhaust, occur separately. In contrast, turbines use a “Brayton Cycle” of combustion, where all four combustion processes occur simultaneously.</p>
 
@@ -118,7 +119,7 @@
 			<div class="col-md-12">
 				<h1>Heat Recovery System</h1>
 
-				<img src="images/heat-recovery-system-overview.png">
+				<a href="images/electrical-distribution.png" data-lightbox="The Heat Recovery System" data-title="The Heat Recovery System"><img src="images/heat-recovery-system-overview.png"></a>
 
 				<p>As mentioned previously, the turbine expansion bellows routes the turbine exhaust to the heat recovery high temperature water heaters (HR-HTWH). The ERI HR-HTWH are used to recycle the thermal energy carried by the exhaust gases of the three Solar turbines. A pneumatically controlled flapper valve or “diverter” is employed to direct the turbine exhaust flow. The valve is controlled to vary flow across the heat transfer surfaces of the HR-HTWH in order to maintain a 370 degree Fahrenheit water temperature at the heater discharge. This 370 degree Fahrenheit water is then distributed throughout the campus.</p>
 
@@ -132,7 +133,7 @@
 			<div class="col-md-12">
 				<h2>Electrical Distribution</h2>
 
-				<img src="images/electrical-distribution.png">
+				<a href="images/electrical-distribution.png" data-lightbox="Electrical Distribution System" data-title="Electrical Distribution System"><img src="images/electrical-distribution.png"></a>
 
 				<p>The Busch Cogeneration Facility generates 13.5 Mw nominal at 13.8 KV and 60 Hz, which will supply more than 90% of the Busch and Livingston campus electrical requirements. The campus grid is connected via two transformers to the local utility PSE&G. PSE&G supplies 24.5 KV electrical power which is then stepped down to 13.8 KV at two transformers. The normal supply for the campus is the Union Carbide line, with the Metuchen grid line serving as backup. The floating power source (PSE&G) makes up for surge loads and provides blackout support. This means that even if the cogeneration plant were to accidentally come off line or be limited in its production capabilities, campus electrical supply would not be affected because the utility would automatically assume all load. This redundant arrangement gives the campus grid added protection against a loss of power.</p>
 
@@ -146,7 +147,7 @@
 			<div class="col-md-12">
 				<h1>Injection Water Purification System</h1>
 
-				<img src="images/water-injection-system-overview.png">
+				<a href="images/water-injection-system-overview.png" data-lightbox="The Water Injection System" data-title="The Water Injection System"><img src="images/water-injection-system-overview.png"></a>
 
 				<p>As mentioned previously, water is injected into the combustion chamber of the turbine to lower combustion temperature. This helps to reduce emissions of NOx into the atmosphere. When injected into the combustion chamber the water instantly vaporizes, leaving any impurities present in the water to bake onto the internal surfaces of the chamber. City water contains numerous electrically charged impurities of “ions” (i.e.; calcium, magnesium, silica) which will cause problems if allowed to deposit inside the turbine. For this reason, the water must be deionized.</p>
 
@@ -160,7 +161,7 @@
 
 				<p>The water is then stored in a tank for use by the gas turbines. It is delivered to them via a single stage centrifugal pump which supplies 32 psig head pressure to the turbines. A final conductivity check is performed to ensure purity before delivery to the turbines. The water at this point is typically &lt;2.5 umhos conductivity (pure H2O does not conduct electricity at all and would indicate 0.0 umhos).</p>
 
-				<img src="images/ro-system.jpg">
+				<a href="images/ro-system.jpg" data-lightbox="RO System" data-title="The RO System"><img src="images/water-injection-system-overview.png"><img src="images/ro-system.jpg"></a>
 
 				<p>In addition to the conductivity/resistivity of the water, silica and sodium (Si and Na) are measured at the effluent of the mixed bed demineralizer. Should a problem develop in the R.O. or the demineralizer resin exhaust, there would be the first two ions which would pass the system. Therefore, monitoring of these elements acts as an early warning system to indicate problems (additionally, silica is particularly bad for the turbine fuel injectors). In this way, we are assured of the purest possible water entering the turbine combustion chamber.</p>
 			</div>

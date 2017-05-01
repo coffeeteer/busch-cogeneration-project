@@ -2,8 +2,23 @@ body {
 	font-family: 'Times New Roman', Georgia, Serif;
 }
 
-.cogen-stacks {
+.logo {
 	width: 600px;
+	color: #fff;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("/images/cogen-stacks.jpg");
+
+    /* Set a specific height */
+    height: 1000px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .cogen-image {
