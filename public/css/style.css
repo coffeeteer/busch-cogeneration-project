@@ -4,12 +4,17 @@ body {
 
 .logo {
 	width: 600px;
-	color: #fff;
+	color: #E33246;
+}
+
+.logo-div {
+	background-color: #fff;
+	width: 600px;
 }
 
 .parallax {
     /* The image used */
-    background-image: url("/images/cogen-stacks.jpg");
+    background-image: url("/images/cogen-stacks-2.jpg");
 
     /* Set a specific height */
     height: 1000px; 
