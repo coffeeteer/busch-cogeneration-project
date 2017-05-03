@@ -18,7 +18,7 @@ h1, h2 {
 }
 
 .logo {
-	width: 600px;
+	max-width: 600px;
 	color: #E33246;
 	font-family: 'Times New Roman', Georgia, Serif;
 }
