@@ -1,38 +1,51 @@
- /* Custom, iPhone Retina */ 
-    @/*media only screen and (min-width : 320px) {
+@media screen
+and (min-width:  1000px)
+and (max-width : 1200px) {
+  
+}
 
-    }*/
+@media screen
+and (min-width:  768px)
+and (max-width : 999px){
+    
+}
 
-     Extra Small Devices, Phones  
-    /*@media only screen and (min-width : 480px) {
-
-    }*/
-
-    /* Small Devices, Tablets */
-    @media screen 
-        
-        and (min-width: 100px)
-        and (max-width: 768px) {
-            body {
-                background-color: blue;
-            }
-
-            .cogen-systems {
-                width:100px;
-            }
-
-            .logo-div {
-                width: 200px;
-                max-width: 100%
-            }
+@media screen
+and (min-width:  651px)
+and (max-width : 767px){
+    .logo, .cogen-systems {
+        max-width: 100%;
     }
 
-    /* Medium Devices, Desktops */
-    /*@media only screen and (min-width : 992px) {
 
-    }*/
+}
 
-    /* Large Devices, Wide Screens */
-    /*@media only screen and (min-width : 1200px) {
+@media screen
+and (min-width:  411px)
+and (max-width : 650px){
+    .logo, .cogen-systems {
+        max-width: 400px;
+    }  
+}
 
-    }*/
+@media screen
+and (min-width : 410px)
+and (max-width : 559px) {
+    .logo, .cogen-systems {
+        max-width: 300px;
+    }  
+}
+
+  
+
+@media screen
+and (min-width : 150px)
+and (max-width : 409px) {
+    .logo, .cogen-systems, .cogen-image {
+        max-width: 200px;
+    }
+
+    h1,  h2 {
+        font-size: 200%;
+    }
+}
