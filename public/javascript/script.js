@@ -8,8 +8,5 @@ $(document).ready(function() {
       maxWidth: 100%,
     });
 
-    $("img.lazy").lazyload({
-    	effect : "fadeIn",
-    	event : "sporty"
-    });
+    $(".lazy").lazyload();
 });
