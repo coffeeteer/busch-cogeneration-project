@@ -36,7 +36,9 @@ and (max-width : 559px) {
     }
 
     .logo, .cogen-systems {
-        max-width: 300px;
+        /*max-width: 300px;*/
+        width: 100%;
+        box-sizing: border-box;
     }  
 }
 
@@ -50,7 +52,9 @@ and (max-width : 409px) {
     }
 
     .logo, .cogen-systems, .cogen-image {
-        max-width: 200px;
+        /*max-width: 200px;*/
+        width: 100%;
+        box-sizing: border-box;
     }
 
     h1,  h2 {
