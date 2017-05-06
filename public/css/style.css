@@ -3,6 +3,7 @@ body {
 	font-family: 'Baloo', cursive;
 	font-size: 1.69em;
 	/*font-size: 7vw;*/
+	overflow-x: hidden;
 }
 
 h1, h2 {

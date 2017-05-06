@@ -35,11 +35,15 @@ and (max-width : 559px) {
         overflow-x: hidden;
     }
 
-    .logo, .cogen-systems {
-        /*max-width: 300px;*/
-        width: 100%;
+    .logo, .cogen-systems, .cogen-image {
+        max-width: 300px;
+        /*width: 100%;*/
         box-sizing: border-box;
     }  
+
+    /*#boiler-stack {
+        margin-right: 25px;
+    }*/
 }
 
   
@@ -52,12 +56,13 @@ and (max-width : 409px) {
     }
 
     .logo, .cogen-systems, .cogen-image {
-        /*max-width: 200px;*/
-        width: 100%;
+        max-width: 200px;
+        /*width: 100%;*/
         box-sizing: border-box;
+        margin: 15px;
     }
 
     h1,  h2 {
-        font-size: 200%;
+        font-size: 180%;
     }
 }
