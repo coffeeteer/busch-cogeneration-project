@@ -8,5 +8,6 @@ $(document).ready(function() {
       maxWidth: 100%,
     });
 
-    $(".lazy").lazyload();
+    width: 100%;
+    box-sizing: border-box;
 });
