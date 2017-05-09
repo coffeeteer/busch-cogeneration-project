@@ -40,9 +40,8 @@ and (max-width : 559px) {
         /*width: 100%;*/
         box-sizing: border-box;
     }  
-
-    /*#boiler-stack {
-        margin-right: 25px;
+    /*.cogen-systems, .cogen-image{
+        width: 130%;
     }*/
 }
 
@@ -65,4 +64,8 @@ and (max-width : 409px) {
     h1,  h2 {
         font-size: 180%;
     }
+
+    /*.cogen-systems, .cogen-image::after{
+        width: 130%;
+    }*/
 }
