@@ -48,7 +48,7 @@ and (max-width : 559px) {
   
 
 @media screen
-and (min-device-width : 150px)
+and (min-device-width : 100px)
 and (max-device-width : 409px) {
      body {
         overflow-x: hidden;
