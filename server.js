@@ -12,7 +12,7 @@ var port = process.env.PORT || 3010;
  
 app.use(express.static(process.cwd() + '/public'));
 
-app.use(morgan('combined'));
+app.use(morgan('dev'));
 
 app.use(bodyParser.urlencoded({
     extended: true
