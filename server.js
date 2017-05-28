@@ -12,12 +12,7 @@ var port = process.env.PORT || 3010;
  
 app.use(express.static(process.cwd() + '/public'));
 
-var theHTTPLog = morgan({
-  "format": "default",
-  "stream": {
-    write: function(str) { theAppLog.debug(str); }
-  }
-});
+app.use(morgan('combined'));
 
 app.use(bodyParser.urlencoded({
     extended: true
