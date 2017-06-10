@@ -1,31 +1,58 @@
 @media screen
 and (min-width:  1000px)
 and (max-width : 1200px) {
-  
+    .logo {
+        top: -189px;
+        left: 517px;
+        width: 400px;
+    }
 }
 
 @media screen
 and (min-width:  768px)
 and (max-width : 999px){
-    
+
+    .logo{
+        top: -150px;
+        left: 383px;
+        width: 320px;
+    }
 }
 
 @media screen
 and (min-width:  651px)
 and (max-width : 767px){
-    .logo, .cogen-systems {
+    body {
+        overflow-x: hidden;
+    }
+
+    .cogen-systems {
         max-width: 100%;
     }
 
-
+    .logo{
+        position: absolute;
+        top: -107px;
+        left: inherit;
+        width: 236px;
+    }
 }
 
 @media screen
 and (min-width:  411px)
 and (max-width : 650px){
-    .logo, .cogen-systems {
+    body {
+        overflow-x: hidden;
+    }
+
+     .cogen-systems {
         max-width: 400px;
     }  
+    .logo{
+        top: -93px;
+        left: inherit;
+        width: 200px; 
+    }
 }
 
 @media screen
@@ -35,14 +62,11 @@ and (max-width : 559px) {
         overflow-x: hidden;
     }
 
-    .logo, .cogen-systems, .cogen-image {
+    .cogen-systems, .cogen-image {
         max-width: 300px;
         /*width: 100%;*/
         box-sizing: border-box;
     }  
-    /*.cogen-systems, .cogen-image{
-        width: 130%;
-    }*/
 }
 
   
@@ -54,7 +78,7 @@ and (max-device-width : 409px) {
         overflow-x: hidden;
     }
 
-    img.logo, .cogen-systems, .cogen-image {
+    /*img.logo,*/ .cogen-systems, .cogen-image {
         width: 100px;
         /*width: 100%;*/
         box-sizing: border-box;
@@ -65,16 +89,11 @@ and (max-device-width : 409px) {
         font-size: 180%;
     }
 
-    /*.cogen-systems, .cogen-image::after{
-        width: 130%;
-    }*/
-
     .parallax {
-    
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }

@@ -21,7 +21,16 @@ h1, h2 {
 .logo {
 	max-width: 600px;
 	color: #E33246;
-	font-family: 'Times New Roman', Georgia, Serif;
+	z-index: 1;
+	position: absolute;
+    top: -253px;
+    left: -35px;
+}	
+
+h1.text-center.logo {
+   font-family: 'Times New Roman', Georgia, Serif;
+   font-size: 1vw;     
+   z-index: 3;
 }
 
 .logo-div {
@@ -35,7 +44,7 @@ h1, h2 {
 
 .parallax {
     /* The image used */
-    background-image: url("/images/cogen-img-2017/roof-hr-stcks-2.jpg");
+    /*background-image: url("/images/cogen-img-2017/roof-hr-stcks-2.jpg");*/
 
     /* Set a specific height */
     height: 1200px; 
@@ -59,4 +68,18 @@ h1, h2 {
 .cogen-image, .cogen-systems {
 	margin: 10px;
 }
+
+.parent-stacks {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+.cogen-stacks {
+	width: 100%;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
 /*Images End*/
